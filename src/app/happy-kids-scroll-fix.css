@@ -1,0 +1,6 @@
+/* Keeps the sticky scene alive for the complete narrative distance. */
+.scroll-story-grid{min-height:250vh;align-items:stretch}
+.scroll-sticky{align-self:start;isolation:isolate}
+.scroll-art-shell{box-shadow:inset 0 0 0 1px rgb(255 255 255 / .12),0 24px 80px rgb(0 0 0 / .12)}
+.scroll-progress{z-index:2}
+@media(max-width:767px){.scroll-story-grid{min-height:0}.scroll-sticky{align-self:auto}}

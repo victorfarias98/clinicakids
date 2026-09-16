@@ -1,0 +1,12 @@
+node_modules
+.next
+coverage
+playwright-report
+test-results
+artifacts
+.git
+.env
+.env.*
+!.env.example
+*.log
+README.md
