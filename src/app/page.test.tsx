@@ -3,7 +3,7 @@ import { describe, expect, it } from "vitest";
 import Page from "./page";
 
 describe("Home page", () => {
-  it("introduces the Happy Kids value proposition with a single page heading", () => {
+  it("introduces the Pequeno Passo value proposition with a single page heading", () => {
     render(<Page />);
 
     expect(
@@ -44,7 +44,7 @@ describe("Home page", () => {
     expect(screen.getByRole("heading", { name: /cada descoberta merece apoio/i })).toBeInTheDocument();
     expect(screen.getByAltText(/criança escovando os dentes/i)).toHaveAttribute(
       "src",
-      "/illustrations/happy-kids-learning.png",
+      "/illustrations/pequeno-passo-learning.png",
     );
   });
 
@@ -53,6 +53,6 @@ describe("Home page", () => {
 
     expect(
       screen.getByAltText(/criança acolhida por uma cuidadora/i),
-    ).toHaveAttribute("src", "/illustrations/happy-kids-safe-space.png");
+    ).toHaveAttribute("src", "/illustrations/pequeno-passo-safe-space.png");
   });
 });

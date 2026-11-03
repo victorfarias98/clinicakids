@@ -1,5 +1,5 @@
-import { HappyKidsPage } from "@/components/happy-kids/HappyKidsPage";
+import { PequenoPassoPage } from "@/components/pequeno-passo/PequenoPassoPage";
 
 export default function Home() {
-  return <HappyKidsPage />;
+  return <PequenoPassoPage />;
 }

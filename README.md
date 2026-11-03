@@ -1,6 +1,6 @@
-# Happy Kids Clínica Infantil
+# Clínica Pequeno Passo
 
-Landing page institucional da Happy Kids Clínica Infantil, em Paulo Afonso, Bahia.
+Landing page institucional da Clínica Pequeno Passo, clínica infantil fictícia em Paulo Afonso, Bahia. Projeto demo de portfólio da Baius Tecnologia; nome, contatos e conteúdo são ilustrativos.
 
 ## Desenvolvimento local
 
@@ -19,7 +19,7 @@ Acesse `http://localhost:3000`.
 - Conteúdo educativo para famílias.
 - FAQ acessível com abertura e fechamento por teclado.
 - Formulário curto de agendamento com validação e encaminhamento para WhatsApp.
-- Endereço, horário, mapa e Instagram da clínica.
+- Localização, horário, mapa e Instagram.
 
 ## Qualidade
 
@@ -36,4 +36,4 @@ Conecte o repositório pelo GitHub App do Coolify, selecione a raiz do projeto e
 
 O deploy será atualizado automaticamente conforme a política de webhook configurada no Coolify. Defina `NEXT_PUBLIC_SITE_URL` nas variáveis do recurso antes do primeiro deploy.
 
-O formulário usa o WhatsApp público informado pela clínica. Não há banco de dados nem tracker de terceiros.
+O formulário encaminha para o WhatsApp de demonstração da Baius Tecnologia. Não há banco de dados nem tracker de terceiros.
